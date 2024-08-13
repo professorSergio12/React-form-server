@@ -78,8 +78,8 @@ To deploy this application to a cloud service like Render:
 - Create a new Web Service on Render:
 2. Link your GitHub repository.
 - Set the build and start commands:
-Build Command: "npm install"
-Start Command: "npm start"
+-- Build Command: "npm install"
+-- Start Command: "npm start"
 - Add environment variables (e.g., DATABASE_URL).
 3. Deploy and monitor:
 - Render will build and deploy your application.
