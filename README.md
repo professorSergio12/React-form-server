@@ -75,15 +75,15 @@ Request Body:
 To deploy this application to a cloud service like Render:
 
 1. ush your code to a GitHub repository.
--Create a new Web Service on Render:
+- Create a new Web Service on Render:
 2. Link your GitHub repository.
--Set the build and start commands:
+- Set the build and start commands:
 Build Command: "npm install"
 Start Command: "npm start"
--Add environment variables (e.g., DATABASE_URL).
+- Add environment variables (e.g., DATABASE_URL).
 3. Deploy and monitor:
--Render will build and deploy your application.
--Monitor logs and deployment status from the Render dashboard.
+- Render will build and deploy your application.
+- Monitor logs and deployment status from the Render dashboard.
 
 ## Contributing
 1. Fork the repository.
@@ -105,6 +105,6 @@ git push origin feature/your-feature-name
 
 
 ## Acknowledgments
--Express.js for the server framework
--Mongoose for MongoDB integration
--dotenv for environment variable management
+- Express.js for the server framework
+- Mongoose for MongoDB integration
+- dotenv for environment variable management
