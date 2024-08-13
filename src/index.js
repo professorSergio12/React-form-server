@@ -16,6 +16,10 @@ app.use(express.json());
 app.use('/api', LoginRouter);
 app.use('/api', SignupRouter);
 
+app.get('/', (req, res) => {
+    res.send('Server is up and running!');
+});
+
 mongoose.connect(process.env.DATABASE_URL)
     .then(() => {
         console.log("Connected to the database");
